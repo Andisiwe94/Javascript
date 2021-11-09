@@ -5,6 +5,6 @@ let arrays = ["Sophie","mmasepaka","Wandile","kagisho","happy","andisiwe","sithe
 let display = document.getElementById("display");
 
 for (let i =0; i <arrays.length; i++) {
-    display.innerHTML += "<li>" + arrays [i] + "</li>";
+    display.innerHTML += "<ol>" + arrays [i] + "</ol>";
 }
 
